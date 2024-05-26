@@ -5,7 +5,7 @@ import React from 'react'
 const Inicio = () => {
     return (
         <div className="h-[88vh] w-full relative">
-            <img src="/img/imgF.jpg" alt="" className="absolute inset-0 h-full w-full object-cover" />
+            <img src="./img/imgF.jpg" alt="" className="absolute inset-0 h-full w-full object-cover" />
             <div className="absolute inset-0 bg-black opacity-70"></div>
             <div className="absolute w-full h-full flex flex-col items-center justify-center z-50">
                 <p className="text-[2.5rem] h-[6rem] text-white sm:text-[3rem] sm:mb-2 md:text-[4rem] md:mb-6 lg:text-[5rem] lg:mb-10">Bienvenid@s a mi sitio</p>
