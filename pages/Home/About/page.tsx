@@ -4,7 +4,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className='w-full py-10 lg:py-0 bg-[#141c27] flex items-center'>
+        <div className='w-full pb-6 pt-24 lg:pt-16 bg-[#141c27] flex items-center' id='about'>
             <div className='w-full lg:h-[42rem]'>
                 <div className='w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-full items-center'>
                     <div className='flex flex-col justify-around h-96'>

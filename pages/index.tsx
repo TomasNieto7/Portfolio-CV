@@ -3,6 +3,10 @@ import NavBar from '@/components/NavBar/NavBar'
 import React, { useState } from 'react'
 import Inicio from './Home/Inicio/page'
 import About from './Home/About/page'
+import Skills from './Home/Skills/page'
+import Projects from './Home/Projects/page'
+import Contact from './Home/Contact/page'
+import Footer from '@/components/Footer/Footer'
 
 
 const HomePage = () => {
@@ -16,6 +20,10 @@ const HomePage = () => {
       <NavBar openNav={openNav}/>
       <Inicio/>
       <About/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }
